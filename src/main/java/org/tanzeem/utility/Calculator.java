@@ -1,4 +1,4 @@
-package org.tanzeem;
+package org.tanzeem.utility;
 
 public class Calculator {
 
