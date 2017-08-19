@@ -21,6 +21,26 @@ mvn install with
 
 mvn surefire:test - Skip compiling and directly run test
 
+mvn surefire:test -Dtest=org.tanzeem.CalculatorAddTest - Running a specific test class
+
+mvn surefire:test -Dtest=org.tanzeem.CalculatorAddTest#testAddition2Plus6Equals8 - Running a specific test
+
+mvn test -Dtest=org.tanzeem.CalculatorAddTest#testAddition2Plus2Equals4+testAddition2Plus6Equals8 - Running muliple test methods
+
+mvn test -Dsuite-file=add-suite.xml - Run a specific suite file, add sure-fire plugin with suiteXmlFile tag
+
+mvn test -Dsuite-file=all-suite.xml - Run all suite files
+<suite name="all_suite" verbose="1" >
+    <suite-files>
+        <suite-file path="src/test/resources/add-suite.xml"/>
+        <suite-file path="src/test/resources/mul-suite.xml"/>
+    </suite-files>
+</suite>
+
+
+
+
+
 
 
 

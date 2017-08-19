@@ -15,7 +15,7 @@ public class CalculatorMultiplyTest {
 
 	@Test
 	public void testAddition2Plus6Equals8() {
-		Assert.assertEquals(calculator.multiply(2, 6), 12, "Mul mismatch...");
+		Assert.assertEquals(calculator.multiply(2, 4), 12, "Mul mismatch...");
 	}
 
 }

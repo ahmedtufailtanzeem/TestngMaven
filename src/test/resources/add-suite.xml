@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="addition_suite" verbose="1" >
+  <test name="addition_test">
+    <classes>
+      <class name="org.tanzeem.CalculatorAddTest"/>
+    </classes>
+  </test>
+</suite>
