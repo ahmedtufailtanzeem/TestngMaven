@@ -1,3 +1,13 @@
+Run single class file
+Run single suite file
+Run single test method
+Run multiple test methods at once available on surefire 2.20
+Run multiple suite files
+Add multiple profiles and control via command line
+Jacoco profilesRunning only integration or unit test - ?
+Parallelism - TestNG/Plugin
+Plugin execution - Goals/Phase understanding
+
 git remote add origin https://github.com/tanzahmed/TestngMaven.git
 git push -u origin master
 

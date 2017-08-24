@@ -15,7 +15,7 @@ public class CalculatorAddTest {
 
 	@Test
 	public void testAddition2Plus6Equals8() {
-		Assert.assertEquals(calculator.add(2, 4), 8, "Sum mismatch...");
+		Assert.assertEquals(calculator.add(2, 4), 6, "Sum mismatch...");
 	}
 
 }
